@@ -15,8 +15,8 @@ server.get('/', (req, res) => {
           "updateDate": "2022-16-08T11:28:00.0Z",
           "titleText": "School Timetable",
           "mainText": "Today is Tuesday so you have English, Maths, Geography, CDT and science",
-          "streamUrl": "",
-          "redirectionUrl": ""
+          "streamUrl": "https://bbc.co.uk",
+          "redirectionUrl": "https://bbc.co.uk"
       }
   ]
   )
