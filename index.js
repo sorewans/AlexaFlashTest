@@ -8,7 +8,7 @@ server.listen(port, () => {
 });
 
 server.get('/', (req, res) => {
-  res.set('Content-Type', 'application/json').json(
+  res.type('application/json').json(
     [
       {
           "uid": "c8f4c1ad-7a78-45ad-99f4-299efc53eb56",
