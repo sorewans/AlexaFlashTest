@@ -3,7 +3,7 @@ const server = express();
 server.use(express.json());
 const port = process.env.PORT || 5010;
 
-server.listen(PORT, () => {
+server.listen(port, () => {
   console.log("The server is listening.")
 });
 
